@@ -98,7 +98,7 @@ const SearchBar = () => {
 
           {recentSearches.map((item, index) => (
             <div
-              key={index}
+              key = {index}
               onClick={() => navigate(`/search/${item}`)}
               className="px-4 py-3 hover:bg-[#333] cursor-pointer"
             >
