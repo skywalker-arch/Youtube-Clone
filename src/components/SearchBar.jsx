@@ -118,6 +118,7 @@ const SearchBar = () => {
           />
 
           {searchTerm && (
+            
             <button
               type="button"
               onClick={() => {
