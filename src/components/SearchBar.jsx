@@ -113,6 +113,7 @@ const SearchBar = () => {
             aria-label="Search"
             aria-autocomplete="list"
             aria-controls="search-suggestions"
+            
             aria-expanded={showSuggestions}
             className="w-[500px] bg-[#121212] border border-[#303030]  px-5 py-2 rounded-l-full outline-none"
           />
