@@ -121,6 +121,7 @@ const SearchBar = () => {
 
             <button
               type="button"
+              
               onClick={() => {
                 setSearchTerm("");
                 setFilteredSuggestions([]);
