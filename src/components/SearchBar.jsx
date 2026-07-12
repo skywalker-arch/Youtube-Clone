@@ -112,7 +112,7 @@ const SearchBar = () => {
             onChange={(e) => setSearchTerm(e.target.value)}
             onKeyDown={handleKeyDown}
             aria-label="Search"
-            
+
 
             aria-autocomplete="list"
             aria-controls="search-suggestions"
@@ -124,6 +124,7 @@ const SearchBar = () => {
 
             <button
               type="button"
+              
 
               onClick={() => {
                 setSearchTerm("");
