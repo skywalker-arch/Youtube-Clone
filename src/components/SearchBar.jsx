@@ -107,11 +107,12 @@ const SearchBar = () => {
           <input
             type="text"
             placeholder="Search"
-            
+
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
             onKeyDown={handleKeyDown}
             aria-label="Search"
+            
 
             aria-autocomplete="list"
             aria-controls="search-suggestions"
