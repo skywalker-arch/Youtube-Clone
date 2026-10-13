@@ -17,6 +17,7 @@ const Navbar = () => {
         <img
           src="https://i.pravatar.cc/40"
           alt="profile"
+          
           className="rounded-full w-10 h-10"
         />
       </div>
